@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.backImg{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(moon.jpg) ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+.profile{
+    width: 360px;
+    background-color: rgb(77, 73, 73) ;
+    padding: 30px 0px;
+    border-radius: 10px;
+
+    
+}
+img{
+  height: 210px;
+  border-radius: 50px;
+  
+}
+.profiletext{
+    margin-bottom: 20px;
+}
+.profiletext h2{
+        font-size: 2em;
+        font-weight: 500;
+        margin-bottom: 20px;
+}
+.profiletext h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.profiletext p{
+    font-size: large;
+}
+i{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: whitesmoke;
+    font-size: 20px;
+       padding-bottom:10px ;
+       text-decoration: none;
+}
+.profilefonts a{
+    font-size: 20px;
+
+}
+.profilefonts a:hover{
+    transition: padding 1s  ease-out;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
